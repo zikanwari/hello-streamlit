@@ -6,7 +6,8 @@ import numpy as np
 st.set_page_config(page_title="偏差値シミュレーター", layout="wide")
 
 # タイトルを設定
-st.title('Streamlitのサンプルアプリ')
+st.title('偏差値シミュレーター')
+st.caption('分散や平均値等のデータから偏差値を測定します')
 
 student = st.slider('生徒数を選んでください', 100, 1000)
 avg_val = st.number_input('平均点を入力してください', value=0)
