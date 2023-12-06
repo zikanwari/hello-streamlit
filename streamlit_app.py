@@ -3,7 +3,7 @@ import streamlit as st
 import numpy as np
 
 # ページ設定（タブに表示されるタイトル、表示幅）
-st.set_page_config(page_title="タイトル", layout="wide")
+st.set_page_config(page_title="偏差値シミュレーター", layout="wide")
 
 # タイトルを設定
 st.title('Streamlitのサンプルアプリ')
