@@ -9,4 +9,4 @@ df = pd.DataFrame(data, columns=[f"Column {i+1}" for i in range(7)])
 # Streamlitアプリケーションの作成
 st.write("席替え")
 
-    df
+df
